@@ -55,9 +55,9 @@ You can protect directory `.github/workflows` by using feature `CODEOWNERS`. Any
 - Use the same repository
 - Create `CODEOWNERS` file at the root level of the repository
 ```
-\.github\ @<your-github-user>
+/.github/ @<your-github-user>
 #For example
-\.github\ @puizeabix
+/.github/ @puizeabix
 ```
 - Commit and push code, and open the any file inside `.github/workflows`, you will see the small icon indicated that this file is protected.
 
